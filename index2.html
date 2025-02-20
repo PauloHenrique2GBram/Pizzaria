@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jubileu Pizzas - Cadastro do Cardápio</title>
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./img/pizza.jpg" alt="Logo Jubileu Pizzas">
+      <h1>Jubileu Pizzas</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Cadastro do Cliente</a></li>
+        <li><a href="./index2.html">Cadastro do Cardápio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Cadastro do Cardápio</h2>
+      <form>
+        <label for="nome-pizza">Nome da Pizza:</label>
+        <input type="text" id="nome-pizza" name="nome-pizza" required>
+
+        <label for="ingredientes">Ingredientes:</label>
+        <textarea id="ingredientes" name="ingredientes" rows="4" required></textarea>
+
+        <label for="preco">Preço:</label>
+        <input type="number" id="preco" name="preco" step="0.01" required>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jubileu Pizzas - Forno a Lenha</p>
+  </footer>
+</body>
+</html>
